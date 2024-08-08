@@ -1,0 +1,5 @@
+services:
+  queue:
+    image: apache/kafka:3.7.1
+    ports:
+      - "9092:9092"
